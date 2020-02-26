@@ -1,0 +1,25 @@
+.undo-redo{
+    position: fixed;
+    font-size: 29px;
+    cursor: pointer;
+}
+
+.undo-redo-active {
+    color: #2196f3;
+    font-size: 29px;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+ }
+ 
+ .undo-redo-disable {
+     cursor: not-allowed;
+     font-size: 29px;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: -moz-none;
+     -o-user-select: none;
+     user-select: none;
+ }
